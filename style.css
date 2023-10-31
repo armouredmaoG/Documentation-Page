@@ -21,7 +21,7 @@ body{
     /* padding: 1rem 2rem; */
 }
 
-header[id]{
+header{
     font-size: 1.8rem;
     font-weight: 500;
     border: 0;
@@ -70,7 +70,7 @@ section{
 }
 
 .content{
-    margin: 0 2rem;
+    margin: 0 1rem;
 }
 
 section pre{
@@ -85,8 +85,7 @@ section .section-heading{
 }
 
 .example{
-    padding-left: 4rem;
-    font-size: 0.95rem;
+    text-align: center;
     font-weight: 100;
 }
 
@@ -94,8 +93,8 @@ section .section-heading{
     body{
         display: unset;
     }
-    header[id]{
-        font-size: 7vw;
+    header{
+        font-size: 8vw;
         /* font-weight: bold; */
     }
     
@@ -108,7 +107,8 @@ section .section-heading{
     }
 
     section .section-heading{
-        font-size: 6vw;
+        font-size: 5vw;
+        font-weight: bold;
     }
 
     section pre{
@@ -120,6 +120,7 @@ section .section-heading{
         text-wrap:wrap;
     }
 
-
-
+    .example{
+        font-size: 0.8rem;
+    }
 }
